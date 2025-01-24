@@ -1,28 +1,17 @@
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=yiumeiki&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="200" alt="languages graph"  />
-</div>
+<h1 align="left">
+	About Me:
+</h1>
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" alt="linkedin logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=powershell" height="40" alt="powershell logo"  />
-</div>
+<p align="left">
+	A highly motivated and adaptable individual with a foundation in software engineering, data science, and creative arts.
+	<a href="www.linkedin.com/in/mei-ki-yiu">
+		<img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="35" alt="linkedin logo"  />
+	</a>
+</p>
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore">
     <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/resources/github_resources_banner_common_core_projects.png">
   </a>
@@ -55,7 +44,7 @@
 
 <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42Piscine">
     <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/piscine_and_common_core/github_piscine_and_common_core_banner_piscine.png">
   </a>
@@ -71,6 +60,27 @@
   </a>
 </p>
 
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
+<div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
   CS50p is a comprehensive course offered by Harvard University that provides a strong foundation in Python programming. The curriculum covers essential concepts such as functions, loops, data structures, file I/O, object-oriented programming, error handling and unit test. It emphasizes writing clean, efficient, and scalable code while solving real-world problems. Designed for both beginners and experienced programmers, CS50p fosters a deep understanding of Python and its practical applications in software development.
 </div>
+
+<hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
+
+<h1 align="left">
+	Skills:
+</h1>
+
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="https://skillicons.dev/icons?i=c" />
+	<img src="https://skillicons.dev/icons?i=python" />
+	<img src="https://skillicons.dev/icons?i=cpp" />
+	<img src="https://skillicons.dev/icons?i=git" />
+	<img src="https://skillicons.dev/icons?i=github" />
+	<img src="https://skillicons.dev/icons?i=html" />
+	<img src="https://skillicons.dev/icons?i=css" />
+	<img src="https://skillicons.dev/icons?i=bash" />
+	<img src="https://skillicons.dev/icons?i=vscode" />
+	<img src="https://skillicons.dev/icons?i=linux" />
+	<img src="https://skillicons.dev/icons?i=markdown" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs?username=yiumeiki&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="200" alt="languages graph"  />
+ </div>
