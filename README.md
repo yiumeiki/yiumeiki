@@ -1,3 +1,11 @@
+# Welcome to My GitHub Profile 👋
+
+Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
+
+- 🔵 **C** and **C++** for system programming and algorithms.
+- 🐍 **Python** for data analysis and web development.
+- 🖥️ Experienced in Linux environments and shell scripting.
+
 <h1 align="left">
 	About Me:
 </h1>
@@ -9,7 +17,7 @@
 	</a>
 </p>
 
-<hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
+<hr style="border: 1px solid #000; width: 100%; margin: 10px auto;">
 
 <p align="left">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore">
@@ -42,7 +50,7 @@
   <br clear="both">
 </div>
 
-<hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
+<hr style="border: 1px solid #000; width: 100%; margin: 20px auto;">
 
 <p align="left">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42Piscine">
@@ -52,7 +60,7 @@
 
 </p>
 
-<hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
+<hr style="border: 1px solid #000; width: 100%; margin: 20px auto;">
 
 <p align="center">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/CS50P">
@@ -64,7 +72,7 @@
   CS50p is a comprehensive course offered by Harvard University that provides a strong foundation in Python programming. The curriculum covers essential concepts such as functions, loops, data structures, file I/O, object-oriented programming, error handling and unit test. It emphasizes writing clean, efficient, and scalable code while solving real-world problems. Designed for both beginners and experienced programmers, CS50p fosters a deep understanding of Python and its practical applications in software development.
 </div>
 
-<hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
+<hr style="border: 1px solid #000; width: 100%; margin: 20px auto;">
 
 <h1 align="left">
 	Skills:
