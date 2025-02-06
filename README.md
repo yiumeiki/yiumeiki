@@ -12,7 +12,7 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
 
 <p align="left">
 	A highly motivated and adaptable individual with a foundation in software engineering, data science, and creative arts.
-	<a href="www.linkedin.com/in/mei-ki-yiu">
+	<a href="https://www.linkedin.com/in/mei-ki-yiu/">
 		<img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="35" alt="linkedin logo"  />
 	</a>
 </p>
