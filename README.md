@@ -43,7 +43,9 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/philo">
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/philosopherse.png?raw=true"  />
   </a>
+   <a href="https://github.com/yiumeiki/yiumeiki/tree/main/42CommonCore/push_swap">
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/push_swape.png?raw=true"  />
+  </a>
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/fractol">
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/fract-ole.png?raw=true"  />
   </a>
