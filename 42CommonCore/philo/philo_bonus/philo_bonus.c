@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 11:36:03 by myiu              #+#    #+#             */
-/*   Updated: 2024/10/08 11:36:06 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/06 13:30:04 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,7 @@ int	main(int ac, char **av)
 	if (data.error)
 		return (0);
 	fork_process(&data);
-	check_philos(&data, 0, "All philosophers ate %d meal(s)\n");
+	check_philos(&data, 0, "Each philosopher ate %d time(s)\n");
 	usleep(10000);
 	free_all(&data);
 	if (data.write != SEM_FAILED)

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   thread_bonus.c                                     :+:      :+:    :+:   */
+/*   time_bonus.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 11:36:42 by myiu              #+#    #+#             */
-/*   Updated: 2024/10/08 11:36:44 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/06 13:30:21 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	ft_usleep(int time_ms, t_philo *philo)
 			return ;
 		life_time = ft_time() - philo->start_eat;
 		sem_wait(philo->data->write);
-		printf("%ld ms %d is died\n", life_time, philo->id);
+		printf("%ld %d is died\n", life_time, philo->id);
 		free_all(philo->data);
 		exit(1);
 	}

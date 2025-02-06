@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   philo.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 09:38:01 by myiu              #+#    #+#             */
-/*   Updated: 2024/09/30 09:38:02 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/04 17:15:13 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ The status includes (in this order):
 [Philosopher's id]
 [Current action (eating, sleeping, ...)]
 */
-
 void	print_status(char *str, t_philo *ph)
 {
 	long int		time;
@@ -28,8 +27,8 @@ void	print_status(char *str, t_philo *ph)
 	time = actual_time() - ph->data->start_t;
 	if (time >= 0 && time <= 2147483647 && !check_death(ph, 0))
 	{
-		printf("%ld ms ", time);
-		printf("Philo %d %s", ph->id, str);
+		printf("%ld ", time);
+		printf("%d %s", ph->id, str);
 	}
 }
 
@@ -37,7 +36,6 @@ void	print_status(char *str, t_philo *ph)
 Philosopher sleeping and thinking action.
 Lock->Sleep->Unlock->Lock->Think->Unlock.
 */
-
 void	sleep_and_think(t_philo *ph)
 {
 	pthread_mutex_lock(&ph->data->write_mutex);
@@ -54,21 +52,20 @@ Philosophers' eating action.
 Take left fork->Take right fork->Eat->Release Forks->Sleep->Think
 lock->print->unlock
 */
-
 void	action(t_philo *ph)
 {
 	if (ph->id % 2 == 0)
 	{
 		pthread_mutex_lock(ph->right_fork);
 		pthread_mutex_lock(&ph->data->write_mutex);
-		print_status("has taken a right fork\n", ph);
+		print_status("has taken a fork\n", ph);
 		pthread_mutex_unlock(&ph->data->write_mutex);
 		pthread_mutex_lock(&ph->left_fork);
 		pthread_mutex_lock(&ph->data->write_mutex);
-		print_status("has taken a left fork\n", ph);
+		print_status("has taken a fork\n", ph);
 		pthread_mutex_unlock(&ph->data->write_mutex);
 	}
-	else
+	else if (ph->data->philos != 1)
 		odd_philo(ph);
 	pthread_mutex_lock(&ph->data->write_mutex);
 	print_status("is eating\n", ph);
@@ -77,8 +74,8 @@ void	action(t_philo *ph)
 	pthread_mutex_unlock(&ph->data->time_eat_mutex);
 	pthread_mutex_unlock(&ph->data->write_mutex);
 	ft_usleep(ph->data->time_to_eat);
-	pthread_mutex_unlock(ph->right_fork);
 	pthread_mutex_unlock(&ph->left_fork);
+	pthread_mutex_unlock(ph->right_fork);
 	sleep_and_think(ph);
 }
 

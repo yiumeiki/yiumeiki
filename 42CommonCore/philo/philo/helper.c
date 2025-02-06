@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   helper.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 16:11:51 by myiu              #+#    #+#             */
-/*   Updated: 2024/10/02 16:11:52 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/04 17:14:50 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ void	*only_one(t_philo *ph)
 	pthread_mutex_unlock(&ph->data->write_mutex);
 	ft_usleep(ph->data->time_to_die + 1);
 	pthread_mutex_lock(&ph->data->write_mutex);
-	print_status("died\n", ph);
 	pthread_mutex_unlock(&ph->data->write_mutex);
 	pthread_mutex_unlock(&ph->left_fork);
 	return (NULL);
@@ -68,19 +67,18 @@ void	odd_philo(t_philo *ph)
 {
 	pthread_mutex_lock(&ph->left_fork);
 	pthread_mutex_lock(&ph->data->write_mutex);
-	print_status("has taken a left fork\n", ph);
+	print_status("has taken a fork\n", ph);
 	pthread_mutex_unlock(&ph->data->write_mutex);
-	if (!ph->right_fork)
-	{
-		ft_usleep(ph->data->time_to_die * 2);
-		return ;
-	}
 	pthread_mutex_lock(ph->right_fork);
 	pthread_mutex_lock(&ph->data->write_mutex);
-	print_status("has taken a right fork\n", ph);
+	print_status("has taken a fork\n", ph);
 	pthread_mutex_unlock(&ph->data->write_mutex);
 }
 
+/*
+	make sure The last philosopher's right fork 
+	is the first philosopher's left fork
+*/
 void	set_forks(t_ptr *p, int i)
 {
 	if (p->data.philos == 1)

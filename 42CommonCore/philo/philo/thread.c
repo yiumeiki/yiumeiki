@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   thread.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 16:37:47 by myiu              #+#    #+#             */
-/*   Updated: 2024/10/02 16:37:48 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/04 17:14:21 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ Make the philosopher wait
 by stopping for a little bit many times
 so other philosophers can do other things at the same time
 */
-
 void	ft_usleep(long int time_in_ms)
 {
 	long int	start_time;
@@ -36,7 +35,6 @@ void	ft_usleep(long int time_in_ms)
 Calculate the actual time in ms
 using long int for calculatation of milliseconds/ seconds/ microseconds
 */
-
 long int	actual_time(void)
 {
 	long int			time;
@@ -53,29 +51,25 @@ long int	actual_time(void)
 when a philosopher died, unlock timr_eat_mutex and finish_mutex
 lock write_mutex and print and then unlock
 */
-
 void	*is_dead(void	*data)
 {
 	t_philo	*ph;
 
 	ph = (t_philo *)data;
-	ft_usleep(ph->data->time_to_die);
-	pthread_mutex_lock(&ph->data->time_eat_mutex);
-	pthread_mutex_lock(&ph->data->finish_mutex);
-	if (!check_death(ph, 0) && ((actual_time() - ph->ms_eat) \
-		> (long)(ph->data->time_to_die)))
+	while (!check_death(ph, 0))
 	{
+		ft_usleep(1);
+		pthread_mutex_lock(&ph->data->time_eat_mutex);
+		if ((actual_time() - ph->ms_eat) > (long)(ph->data->time_to_die))
+		{
+			pthread_mutex_unlock(&ph->data->time_eat_mutex);
+			pthread_mutex_lock(&ph->data->write_mutex);
+			print_status("died\n", ph);
+			pthread_mutex_unlock(&ph->data->write_mutex);
+			check_death(ph, 1);
+			return (NULL);
+		}
 		pthread_mutex_unlock(&ph->data->time_eat_mutex);
-		pthread_mutex_unlock(&ph->data->finish_mutex);
-		pthread_mutex_lock(&ph->data->write_mutex);
-		print_status("died\n", ph);
-		pthread_mutex_unlock(&ph->data->write_mutex);
-		check_death(ph, 1);
-	}
-	else
-	{
-		pthread_mutex_unlock(&ph->data->time_eat_mutex);
-		pthread_mutex_unlock(&ph->data->finish_mutex);
 	}
 	return (NULL);
 }
@@ -87,7 +81,6 @@ It creates a new thread to check whether the philosopher has
 died, and then performs the philosopher's actions.
 Keeps track of how many times the philosopher has eaten.
 */
-
 void	*thread(void *data)
 {
 	t_philo	*ph;
@@ -100,7 +93,7 @@ void	*thread(void *data)
 		ft_usleep(ph->data->time_to_eat / 10);
 	while (1)
 	{
-		if (check_death(ph, 0))
+		if (check_death(ph, 0) || ph->data->philos == 1)
 			break ;
 		action(ph);
 		if (ph->data->meals != -1 && (int)++ph->nb_philo_ate == ph->data->meals)
@@ -120,7 +113,6 @@ void	*thread(void *data)
 /*
 Create a thread for each philosopher
 */
-
 int	threading(t_ptr *p)
 {
 	int	i;

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   initalise.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/02 16:39:19 by myiu              #+#    #+#             */
-/*   Updated: 2024/10/02 16:39:21 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/04 17:14:29 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 Check if the philosopher died because of no eating
 return 1 if died
 */
-
 int	check_death(t_philo *ph, int i)
 {
 	int	died;

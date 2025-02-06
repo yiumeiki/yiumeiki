@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   action.c                                           :+:      :+:    :+:   */
+/*   action_bonus.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: myiu <marvin@42.fr>                        +#+  +:+       +#+        */
+/*   By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:50:46 by myiu              #+#    #+#             */
-/*   Updated: 2024/10/10 15:50:48 by myiu             ###   ########.fr       */
+/*   Updated: 2025/02/06 13:27:59 by myiu             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	check_dead(t_philo *philo)
 		philo->state = 1;
 		time = time - philo->start_eat;
 		sem_wait(philo->data->write);
-		printf("%ld ms %d is died\n", time, philo->id);
+		printf("%ld %d is died\n", time, philo->id);
 		free_all(philo->data);
 		exit(1);
 	}
@@ -42,7 +42,7 @@ else check if they die and lock the other fork
 int	take_forks(t_philo *philo)
 {
 	sem_wait(philo->data->forks);
-	print_status("%ld ms %d has taken a fork\n", philo);
+	print_status("%ld %d has taken a fork\n", philo);
 	if (philo->data->size == 1)
 	{
 		ft_usleep(philo->data->time_to_die + 1, philo);
@@ -54,7 +54,7 @@ int	take_forks(t_philo *philo)
 		if (check_dead(philo))
 			return (0);
 		sem_wait(philo->data->forks);
-		print_status("%ld ms %d has taken a fork\n", philo);
+		print_status("%ld %d has taken a fork\n", philo);
 	}
 	return (1);
 }
@@ -72,7 +72,7 @@ void	eat(t_philo *philo)
 	if (take_forks(philo))
 	{
 		philo->nb_eat++;
-		print_status("%ld ms %d is eating\n", philo);
+		print_status("%ld %d is eating\n", philo);
 		ft_usleep(philo->data->time_to_eat, philo);
 		sem_post(philo->data->forks);
 		sem_post(philo->data->forks);
@@ -91,11 +91,11 @@ void	sleep_and_think(t_philo *philo)
 {
 	int	time;
 
-	print_status("%ld ms %d is sleeping\n", philo);
+	print_status("%ld %d is sleeping\n", philo);
 	ft_usleep(philo->data->time_to_sleep, philo);
 	if (check_dead(philo))
 		return ;
-	print_status("%ld ms %d is thinking\n", philo);
+	print_status("%ld %d is thinking\n", philo);
 	if (philo->data->time_to_eat > philo->data->time_to_sleep)
 	{
 		time = philo->data->time_to_eat - philo->data->time_to_sleep - 1;
