@@ -6,7 +6,7 @@
 #    By: myiu <myiu@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/26 17:35:28 by myiu              #+#    #+#              #
-#    Updated: 2025/02/03 11:22:43 by myiu             ###   ########.fr        #
+#    Updated: 2025/02/17 16:34:13 by myiu             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,8 +70,8 @@ test3:				$(NAME)
 					@echo -n "Instructions: "
 					@./push_swap $(ARG) | wc -l
 
-test6:				$(NAME)	
-					$(eval ARG = $(shell shuf -i 0-5000 -n 6))
+test5:				$(NAME)	
+					$(eval ARG = $(shell shuf -i 0-5000 -n 5))
 					./push_swap $(ARG) | ./checker_linux $(ARG)
 					@echo -n "Instructions: "
 					@./push_swap $(ARG) | wc -l
