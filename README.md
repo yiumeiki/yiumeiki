@@ -19,10 +19,12 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
 
 <hr style="border: 1px solid #000; width: 100%; margin: 10px auto;">
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore">
-    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/resources/github_resources_banner_common_core_projects.png">
+    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/common_coree.png?raw=true">
   </a>
+</p>
+<p align="left">
   42 is a globally recognized programming school designed to cultivate problem-solving, collaboration, and self-learning skills through a peer-driven, project-based curriculum. The program emphasizes real-world development practices, rigorous coding standards, and teamwork, fostering adaptability and innovation. Students progress at their own pace, mastering languages like C, C++, and system-level programming, with a focus on creating robust, scalable software solutions.
 </p>
 
@@ -54,10 +56,11 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
 
 <hr style="border: 1px solid #000; width: 100%; margin: 20px auto;">
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42Piscine">
-    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/piscine_and_common_core/github_piscine_and_common_core_banner_piscine.png">
+    <img src="https://github.com/ayogun/42-project-badges/blob/main/badges/eventse.png?raw=true">
   </a>
+<p align="left">
   Passing 42 Piscine is a four-week intensive coding program that serves as a pre-selection process for admission to the 42 school, demonstrating adaptability and resilience under pressure. It involved mastering fundamental programming concepts, algorithmic problem-solving, and Unix-based development while collaborating in a peer-driven, self-paced environment.
 
 </p>
