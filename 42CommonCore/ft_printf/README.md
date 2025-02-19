@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://github.com/ayogun/42-project-badges/blob/main/covers/cover-ft_printf.png?raw=true">
+</p>
+
 # ft_Printf
 Implemented a custom version of the standard C printf function, handling formatted output with precision. Developed a modular and efficient approach to parsing format specifiers, managing variable argument lists, and optimizing performance. Ensured compliance with memory management best practices and handled edge cases to replicate standard behavior.
 

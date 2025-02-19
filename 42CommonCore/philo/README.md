@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://github.com/ayogun/42-project-badges/blob/main/covers/cover-philosophers.png?raw=true">
+</p>
+
 # Philosophers
 Simulated the classical Dining Philosophers problem using multithreading (mandatory) and multiprocessing (bonus) while ensuring deadlock-free synchronization. Utilized mutexes (mandatory) and semaphores (bonus) to manage shared resources efficiently. Implemented robust timing mechanisms and race condition prevention strategies to ensure correctness and performance.
 

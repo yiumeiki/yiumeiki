@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://github.com/ayogun/42-project-badges/blob/main/covers/cover-minitalk.png?raw=true">
+</p>
+
 # minitalk
 Built a client-server communication system using UNIX signals (SIGUSR1 and SIGUSR2) to transmit messages character by character. Focused on synchronization, signal handling, and ensuring reliable data transmission. The bonus implementation included additional features such as enhanced error handling and extended message formats(unicode).
 

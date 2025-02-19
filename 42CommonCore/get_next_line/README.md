@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://github.com/ayogun/42-project-badges/blob/main/covers/cover-get_next_line.png?raw=true">
+</p>
+
 # get_next_line
 Developed a function to read a file descriptor line by line with optimized buffer management. Implemented a dynamic allocation strategy to handle variable-length lines efficiently while minimizing memory leaks. The bonus part extended functionality to support multiple file descriptors simultaneously.
 
