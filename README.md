@@ -1,21 +1,45 @@
 # Welcome to My GitHub Profile 👋
 
-Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
+Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently advancing through the intensive curriculum at **42 London**. I thrive at the intersection of system-level programming and real-world problem solving, and I love building efficient, reliable software with meaningful impact.
 
-- 🔵 **C** and **C++** for system programming and algorithms.
-- 🐍 **Python** for data analysis and web development.
-- 🖥️ Experienced in Linux environments and shell scripting.
+### ⚙️ My Expertise:
+- 🔵 **C / C++** for system-level programming, concurrency, and algorithmic problem solving  
+- 🐍 **Python** for backend development, data analysis, and AI integration  
+- 🖥️ Comfortable in **Linux/Unix environments**, shell scripting, and low-level debugging  
+- 🧪 Experience in **unit testing**, API integration, and containerized deployment (Docker)  
+- 💡 Interested in **Generative AI**, data workflows, automation, and process optimization  
+
+---
 
 <h1 align="left">
-	About Me:
+	🚀 About Me:
 </h1>
 
 <p align="left">
-	A highly motivated and adaptable individual with a foundation in software engineering, data science, and creative arts.
+	I’m currently building full-stack and backend applications with a focus on AI, performance, and user-centered design. From engineering a <strong>POSIX-compliant shell</strong> in C to leading backend development for an <strong>AI-powered academic assistant</strong> using <em>FastAPI</em> and <em>Claude API</em>, I’m constantly evolving my skills to solve challenging, real-world problems.
+	<br><br>
+	Apart from code, I bring a unique blend of creativity and professionalism from my background in international modeling, strengthening my ability to communicate clearly, adapt fast, and collaborate across teams.
+	<br><br>
+	📍 Based in London — open to global collaboration and relocation.
+	<br><br>
 	<a href="https://www.linkedin.com/in/mei-ki-yiu/">
 		<img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="35" alt="linkedin logo"  />
 	</a>
 </p>
+
+---
+
+### 🧠 Recent Projects
+
+- 🧭 [**StudenTools.AI**](https://github.com/yiumeiki/EncodeAIHackathon) – *2nd Place Winner, Encode Hackathon*  
+  AI-driven academic planner integrating Claude API and Portia.ai, featuring smart scheduling, automated content generation, and interactive learning flows. Built using **Python**, **FastAPI**, **Docker**, **Pydantic**.
+
+- 💻 [**Minishell**](https://github.com/yiumeiki/yiumeiki/tree/main/42CommonCore/minishell) – A robust POSIX-compliant shell built in **C**, featuring command parsing, process management, and error handling under strict Norminette standards.
+
+- 🌀 [**Fract-ol**](https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/fractol) – High-performance fractal visualization engine built in **C with MiniLibX**, rendering Julia and Mandelbrot sets with pixel-level interactivity and zoom functionality.
+
+---
+
 
 <hr style="border: 1px solid #000; width: 100%; margin: 10px auto;">
 
@@ -29,6 +53,13 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
 </p>
 
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+  <a href="https://github.com/yiumeiki/yiumeiki/tree/main/42CommonCore/minishell">
+    <img height="105" src="https://github.com/ayogun/42-project-badges/blob/main/badges/minishelle.png?raw=true"  />
+  </a>
+  <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/fractol">
+    <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/fract-ole.png?raw=true"  />
+  </a>
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/minitalk">
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/minitalke.png?raw=true"  />
   </a>
@@ -48,9 +79,7 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
    <a href="https://github.com/yiumeiki/yiumeiki/tree/main/42CommonCore/push_swap">
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/push_swape.png?raw=true"  />
   </a>
-  <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/fractol">
-    <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/fract-ole.png?raw=true"  />
-  </a>
+  
   <br clear="both">
 </div>
 
@@ -64,18 +93,6 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
   Passing 42 Piscine is a four-week intensive coding program that serves as a pre-selection process for admission to the 42 school, demonstrating adaptability and resilience under pressure. It involved mastering fundamental programming concepts, algorithmic problem-solving, and Unix-based development while collaborating in a peer-driven, self-paced environment.
 
 </p>
-
-<hr style="border: 1px solid #000; width: 100%; margin: 20px auto;">
-
-<p align="center">
-  <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/CS50P">
-    <img src="https://media.licdn.com/dms/image/v2/D5612AQH8np4qqwd2YA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693981266937?e=1743033600&v=beta&t=AAI_YTQwDGd2XbzkwrlBBEAHieZ15BNTA4hiac_4pAY">  
-  </a>
-</p>
-
-<div align="left" style="display: flex; flex-wrap: wrap; gap: 10px;">
-  CS50p is a comprehensive course offered by Harvard University that provides a strong foundation in Python programming. The curriculum covers essential concepts such as functions, loops, data structures, file I/O, object-oriented programming, error handling and unit test. It emphasizes writing clean, efficient, and scalable code while solving real-world problems. Designed for both beginners and experienced programmers, CS50p fosters a deep understanding of Python and its practical applications in software development.
-</div>
 
 <hr style="border: 1px solid #000; width: 100%; margin: 20px auto;">
 
@@ -95,5 +112,8 @@ Hi! I'm Mei Ki Yiu, a passionate developer with expertise in:
 	<img src="https://skillicons.dev/icons?i=vscode" />
 	<img src="https://skillicons.dev/icons?i=linux" />
 	<img src="https://skillicons.dev/icons?i=markdown" />
+</div>
+
+<div  align="center" >
 	<img src="https://github-readme-stats.vercel.app/api/top-langs?username=yiumeiki&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="200" alt="languages graph"  />
  </div>
