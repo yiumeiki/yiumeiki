@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile 👋
 
-Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently advancing through the intensive curriculum at **42 London**. I thrive at the intersection of system-level programming and real-world problem solving, and I love building efficient, reliable software with meaningful impact.
+Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently advancing through the intensive curriculum at **42 London**. I thrive at the intersection of system-level programming and real-world problem solving. I enjoy building efficient, reliable software that makes a meaningful impact.
 
 ### ⚙️ My Expertise:
 - 🔵 **C / C++** for system-level programming, concurrency, and algorithmic problem solving  
@@ -16,7 +16,7 @@ Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently adva
 </h1>
 
 <p align="left">
-	I’m currently building full-stack and backend applications with a focus on AI, performance, and user-centered design. From engineering a <strong>POSIX-compliant shell</strong> in C to leading backend development for an <strong>AI-powered academic assistant</strong> using <em>FastAPI</em> and <em>Claude API</em>, I’m constantly evolving my skills to solve challenging, real-world problems.
+	I’m currently building full-stack and backend applications with a focus on AI, performance, and user-centered design. From engineering a <strong>POSIX-compliant shell</strong> in C to leading backend development for an <strong>AI-powered academic assistant</strong> using <em>Python</em> and <em>FastAPI</em>, I’m constantly evolving my skills to solve challenging, real-world problems.
 	<br><br>
 	Apart from code, I bring a unique blend of creativity and professionalism from my background in international modeling, strengthening my ability to communicate clearly, adapt fast, and collaborate across teams.
 	<br><br>
@@ -31,6 +31,13 @@ Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently adva
 
 ### 🧠 Recent Projects
 
+- 🧠 [**AiThena**](https://github.com/yiumeiki/AiThena) – *IBM AI & Automation Unpacked Hackathon*  
+  A personalized AI tutor platform that transforms PDFs and YouTube videos into adaptive learning tools — including summaries, flashcards, MCQs, and personalized feedback.  
+  🔹 **Backend fully developed by me**, using **FastAPI**, **IBM watsonx Granite 3.3**, and **Firebase Auth**.  
+  🔹 Integrates Granite Speech 8B for audio transcription, advanced prompting for reasoning tasks, and ElevenLabs for optional TTS output.  
+  🔹 Built with a clean Streamlit frontend for interactive student experience.  
+  **Tech:** Python, FastAPI, Streamlit, Bcrypt, IBM watsonx.ai
+
 - 🧭 [**StudenTools.AI**](https://github.com/yiumeiki/EncodeAIHackathon) – *2nd Place Winner, Encode Hackathon*  
   AI-driven academic planner integrating Claude API and Portia.ai, featuring smart scheduling, automated content generation, and interactive learning flows. Built using **Python**, **FastAPI**, **Docker**, **Pydantic**.
 
@@ -39,7 +46,6 @@ Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently adva
 - 🌀 [**Fract-ol**](https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/fractol) – High-performance fractal visualization engine built in **C with MiniLibX**, rendering Julia and Mandelbrot sets with pixel-level interactivity and zoom functionality.
 
 ---
-
 
 <hr style="border: 1px solid #000; width: 100%; margin: 10px auto;">
 
@@ -65,7 +71,7 @@ Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently adva
   </a>
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/born2beroote.png?raw=true"  />
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/ft_printf">
-    <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/ft_printfe.png?raw=trueges/blob/main/badges/libfte.png?raw=true"  />
+    <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/ft_printfe.png?raw=true"  />
   </a>
   <a href="https://github.com/yiumeiki/yiumeiki.github.io/tree/main/42CommonCore/get_next_line">
     <img height="105" src="https://github.com/0bvim/42-project-badges/blob/main/badges/get_next_linee.png?raw=true"  />
@@ -117,3 +123,4 @@ Hi! I'm **Mei Ki Yiu**, a passionate and driven software engineer currently adva
 <div  align="center" >
 	<img src="https://github-readme-stats.vercel.app/api/top-langs?username=yiumeiki&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="200" alt="languages graph"  />
  </div>
+
